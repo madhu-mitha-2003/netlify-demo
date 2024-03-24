@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">    
-    <title>Html class</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+     }
+    </style>
 </head>
+
 <body>
-    <form>
-     <label for="Firstname">Firstname</label><br>
-     <input type="Firstname" name="" id="Firstname"><br>
-     <label for="Lastname">Lastname</label><br>
-     <input type="Lastname" name="" id="Lastname"><br>
-     <label for="middlename">middlename</label><br>
-     <input type="middlename" name="" id="middlename"><br>
-     <label for="email">Email</label><br>
-     <input type="email" name="" id="email"><br>
-     <label for="password">Password</label><br>
-     <input type="password" name="" id="password"><br>
-     <lable for="upload a file">upload a file</lable><br>
-     <input type="upload a file" name="" id="upload a file"><br>
-    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>State of health</th>
+                <th colspan="2">Fasting Value</th>
+                <th >After Remaining</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <thead>
+                <tr>
+                <th></th>
+                <th>Minimum</th>
+                <th>Normal</th>
+                <th>2 hours of Eating</th>
+            </tr>
+        </thead>
+
+            <tr>
+                <td>healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>more than 126</td>
+                <td>Not Applicable</td>
+                <td>Less than 200</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
